@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome!](README.md)
+* [Introduction](README.md)
 * [Generate a token](generate-a-token.md)
 
 ## Reference

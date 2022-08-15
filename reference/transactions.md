@@ -4,7 +4,7 @@ description: Each transaction it's and income or expenses in a user bank account
 
 # Transactions
 
-![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (2).png>)
 
 ### Listing transactions
 

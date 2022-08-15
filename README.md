@@ -1,21 +1,25 @@
-# Welcome!
+---
+description: >-
+  Start building tools using your bank accounts information with our monse
+  public API.
+---
 
-## Welcome to MyAPI
+# Introduction
 
-Welcome to MyAPI! Here you'll find all the documentation you need to get up and running with the MyAPI API.
+{% hint style="info" %}
+We are working to extend this public API to add more options and capabilities to it. If you plan to build something amazing and you need a desire endpoint, just [email us](mailto:hola@monse.app).
+{% endhint %}
 
-## Want to jump right in?
+## Key features
 
-Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
+![](<.gitbook/assets/image (1).png>)
 
-{% content-ref url="generate-a-token.md" %}
-[generate-a-token.md](generate-a-token.md)
-{% endcontent-ref %}
+Right now this API it's focused on list and filter user transactions from his different connected accounts, but that just the beginning.
 
-## Want to deep dive?
+#### Currently working on:
 
-Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
-
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
-{% endcontent-ref %}
+* [x] Transactions list
+* [ ] Update transactions
+* [ ] Accounts balances
+* [ ] CryptoCurrencies portfolio
+* [ ] Stock portfolio
