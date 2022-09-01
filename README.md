@@ -12,7 +12,7 @@ We are working to extend this public API to add more options and capabilities to
 
 ## Key features
 
-![](<.gitbook/assets/image (1).png>)
+![](<.gitbook/assets/image (1) (1).png>)
 
 Right now this API it's focused on list and filter user transactions from his different connected accounts, but that just the beginning.
 
@@ -22,7 +22,7 @@ Right now this API it's focused on list and filter user transactions from his di
 * [x] Update transactions
 * [x] Delete transactions
 * [ ] Create transactions
-* [ ] List categories
+* [x] List categories
 * [ ] List bank accounts
 * [ ] Accounts balances
 * [ ] CryptoCurrencies portfolio

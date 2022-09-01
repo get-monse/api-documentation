@@ -4,9 +4,9 @@ description: Each transaction it's and income or expenses in a user bank account
 
 # Transactions
 
-![](<../.gitbook/assets/image (2).png>)
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
-### Listing transactions
+### Endpoints
 
 {% swagger baseUrl="https://monse.app/v1" method="get" path="/transactions" summary="List and filter your transactions" %}
 {% swagger-description %}

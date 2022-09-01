@@ -12,3 +12,4 @@
 ## Reference
 
 * [Transactions](reference/transactions.md)
+* [Categories](reference/categories.md)
