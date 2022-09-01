@@ -20,6 +20,10 @@ Right now this API it's focused on list and filter user transactions from his di
 
 * [x] Transactions list
 * [x] Update transactions
+* [x] Delete transactions
+* [ ] Create transactions
+* [ ] List categories
+* [ ] List bank accounts
 * [ ] Accounts balances
 * [ ] CryptoCurrencies portfolio
 * [ ] Stock portfolio
