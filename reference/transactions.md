@@ -130,3 +130,63 @@ Bearer eyJ0eXAiOiJK…abJfpQc07c\_eig-Eok
 
 {% endswagger-response %}
 {% endswagger %}
+
+{% swagger method="put" path="/transactions/{id}" baseUrl="https://monse.app/v1" summary="Update a transaction" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="path" type="Integer" %}
+Transaction ID
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" required="false" name="category_id" type="Integer" %}
+New transaction category
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="notes" type="String" %}
+New transaction notes
+{% endswagger-parameter %}
+
+{% swagger-response status="204: No Content" description="Transaction updated successfully" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="Permission denied" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="delete" path="/transactions/{id}" baseUrl="https://monse.app/v1" summary="Delete a transaction" %}
+{% swagger-description %}
+The transaction will be marked as deleted and this action can't be undone.
+{% endswagger-description %}
+
+{% swagger-parameter in="query" type="Integer" %}
+Transaction ID
+{% endswagger-parameter %}
+
+{% swagger-response status="204: No Content" description="Transaction deleted" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="Permission denied" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}

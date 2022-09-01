@@ -19,7 +19,7 @@ Right now this API it's focused on list and filter user transactions from his di
 #### Currently working on:
 
 * [x] Transactions list
-* [ ] Update transactions
+* [x] Update transactions
 * [ ] Accounts balances
 * [ ] CryptoCurrencies portfolio
 * [ ] Stock portfolio
