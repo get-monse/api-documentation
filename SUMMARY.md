@@ -13,3 +13,4 @@
 
 * [Transactions](reference/transactions.md)
 * [Categories](reference/categories.md)
+* [Bank Accounts](reference/bank-accounts.md)
