@@ -1,4 +1,12 @@
+---
+description: List, create, update or delete your bank accounts
+---
+
 # Bank Accounts
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+### Endpoints
 
 {% swagger method="get" path="/v1/bank-accounts" baseUrl="https://monse.app" summary="Get a list of all your bank accounts" %}
 {% swagger-description %}

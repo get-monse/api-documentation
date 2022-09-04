@@ -4,7 +4,7 @@ description: Each transaction it's and income or expenses in a user bank account
 
 # Transactions
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (2).png" alt=""><figcaption></figcaption></figure>
 
 ### Endpoints
 
