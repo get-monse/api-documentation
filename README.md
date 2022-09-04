@@ -19,7 +19,7 @@ Right now this API it's focused on list and filter user transactions from his di
 #### Currently working on:
 
 * [x] Update, delete and list transactions
-* [ ] Create transactions
+* [x] Create transactions
 * [x] List categories
 * [x] List, edit, create and delete bank accounts
 * [x] Accounts balances
