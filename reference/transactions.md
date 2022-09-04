@@ -131,6 +131,71 @@ Bearer eyJ0eXAiOiJK…abJfpQc07c\_eig-Eok
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="post" path="/transactions" baseUrl="https://monse.app/v1" summary="Create a new transaction" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" required="true" name="amount" type="Integer" %}
+In cents
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" required="true" name="bank_account_id" type="Integer" %}
+The ID of the bank account.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" required="true" name="booked_at" type="String" %}
+Booked at date in Y-m-d format.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" required="true" name="concept" type="String" %}
+A description of the transaction.
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="notes" type="String" %}
+
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="category_id" type="Integer" %}
+
+{% endswagger-parameter %}
+
+{% swagger-response status="201: Created" description="Transaction created" %}
+```javascript
+{
+    'id': 9
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="400: Bad Request" description="Missing or invalid fields" %}
+```javascript
+{
+    "amount": [
+        "The amount field is required."
+    ],
+    "bank_account_id": [
+        "The bank account id field is required."
+    ],
+    "booked_at": [
+        "The booked at field is required."
+    ],
+    "concept": [
+        "The concept field is required."
+    ]
+}
+```
+{% endswagger-response %}
+
+{% swagger-response status="401: Unauthorized" description="Permission denied" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 {% swagger method="put" path="/transactions/{id}" baseUrl="https://monse.app/v1" summary="Update a transaction" %}
 {% swagger-description %}
 
