@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Introduction](README.md)
+* [Public API Introduction](README.md)
 * [Generate a token](generate-a-token.md)
 
 ## Links
