@@ -152,6 +152,10 @@ Booked at date in Y-m-d format.
 A description of the transaction.
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="currency" type="String" %}
+Currency code. Inherited from bank account if no value.
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="notes" type="String" %}
 
 {% endswagger-parameter %}
