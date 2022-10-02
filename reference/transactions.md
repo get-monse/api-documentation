@@ -133,7 +133,7 @@ Bearer eyJ0eXAiOiJK…abJfpQc07c\_eig-Eok
 
 {% swagger method="post" path="/transactions" baseUrl="https://monse.app/v1" summary="Create a new transaction" %}
 {% swagger-description %}
-
+You can only create transactions for manual accounts.
 {% endswagger-description %}
 
 {% swagger-parameter in="body" required="true" name="amount" type="Integer" %}
