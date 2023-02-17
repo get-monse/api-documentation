@@ -13,6 +13,10 @@ description: List, create, update or delete your bank accounts
 
 {% endswagger-description %}
 
+{% swagger-parameter in="query" name="include" type="string" %}
+If you want to receive lso de bank information you can add it as 'bank'.
+{% endswagger-parameter %}
+
 {% swagger-response status="200: OK" description="List of Bank Accounts" %}
 ```javascript
 [
